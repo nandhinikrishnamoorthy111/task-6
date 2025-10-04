@@ -1,0 +1,20 @@
+.section{
+    background-color: rgb(196, 255, 243);
+}
+input{
+    border-radius: 5px;
+}
+body{
+    background-color: rgb(230, 255, 235);
+} 
+#sd{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    background-color: rgb(80, 255, 188);
+}
+button:hover{
+    background-color: rgb(181, 234, 242);
+}
