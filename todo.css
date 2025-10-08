@@ -1,0 +1,108 @@
+#boxing
+{
+text-align: center;
+}
+body{
+  
+ 
+  background-color: #000000;
+}
+#h1{
+  color:#fceded
+}
+#text{
+    width:300px;
+    height:30px;
+    background-color:rgb(224, 251, 238);
+   border:2px solid #000000;
+   border-radius: 5px;
+
+}
+#add{
+     width:50px;
+    height:30px;
+    background-color:rgb(245, 254, 251);
+    margin-top: 20px;
+    border:2px  #fceded;
+    color: #0b0a0a;
+    border-radius: 3px;
+}
+
+#add:hover{
+    background-color: green;
+}
+
+    .task-box {
+  background-color: rgb(208, 239, 221);
+  border: 1px solid #ccc;
+  padding: 10px 15px;
+  margin: 8px 0;
+  border-radius: 8px;
+
+  
+  height: 35px;
+  width:600px;
+  height:60px;
+
+ margin-left: 450px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  text-align: center;
+  
+}
+
+/* Task text part */
+.task-box span {
+  flex: 1;                  /* makes text take available space */
+  overflow: hidden;         /* hides overflow if text is too long */
+  text-overflow: ellipsis;  /* adds ... for long text */
+     
+}
+
+/* Buttons inside task box */
+.task-box button {
+  margin-left: 8px;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+/* ✅ Button colors */
+.task-box button.complete {
+  background-color: lightgreen;
+}
+
+.task-box button.delete {
+  background-color: lightcoral;
+}
+
+/* ✅ Completed task look */
+.completed {
+  text-decoration: line-through;
+  opacity: 0.6;
+}
+.hidden {
+  display: none;
+}
+
+.btn-section {
+  margin-top: 20px;
+}
+
+.viewBtn {
+  margin: 5px;
+  padding: 8px 15px;
+  border-radius: 5px;
+  background-color: #f0f0f0;
+  cursor: pointer;
+  border: 1px solid #ddd;
+}
+
+.viewBtn:hover {
+  background-color: lightblue;
+}
+
