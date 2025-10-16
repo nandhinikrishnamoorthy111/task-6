@@ -1,0 +1,190 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color:rgb(192, 255, 220);
+    color: #525151;
+}
+
+h1 {
+    color: #040404;
+    margin-bottom: 5px;
+    font-size:5em;
+    text-align: center;
+}
+#quotes{
+    font-size: 2em;
+    text-align: center;
+}
+p {
+    margin: 5px 0;
+}
+
+.product-card {
+    border: none;
+    border-radius: 8px;
+    padding: 15px;
+    margin: 10px 0;
+    width: 250px;
+    background-color:rgb(235, 250, 240);
+    box-shadow: 2px 2px 6px;
+    text-align: center;
+}
+
+.product-card h3 {
+    margin: 0 0 5px 0;
+    color: #111;
+}
+
+.product-card button {
+    margin: 5px 5px 5px 0;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+.product-card button.secondary {
+    background-color: #777;
+}
+
+.product-card input {
+    width: 50px;
+    padding: 3px;
+    margin-right: 5px;
+    border-radius: 4px;
+    border: 1px solid #a38f8f;
+}
+
+#bill {
+    margin-top: 20px;
+    padding: 15px;
+    border: 2px solid #444;
+    border-radius: 8px;
+    background-color: rgb(231, 255, 247);
+    width: 400px;
+    border-style: none;
+    margin-left: 500px;
+     display: none;
+}
+
+#bill h2 {
+    margin-top: 0;
+}
+
+#bill p, #bill div {
+    margin: 5px 0;
+}
+
+#paymentOptions {
+    margin-top: 15px;
+}
+
+#paymentOptions button {
+    margin-right: 10px;
+    padding: 8px 15px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#paymentOptions button#gpayBtn { background-color: #4285F4; color: white; }
+#paymentOptions button#cardBtn { background-color: #f39c12; color: white; }
+#paymentOptions button#upiBtn { background-color: #16a085; color: white; }
+#products {
+    display: flex;
+    flex-wrap:wrap;
+    gap: 80px; 
+    margin-left: 50px;
+    margin-top: 40px;
+}
+
+
+
+.product-card img {
+    display: block;
+    margin: 0 auto 10px; /* center and spacing */
+    width: 100px;
+    height: 100px;
+    object-fit: contain; /* keeps image ratio */
+    border-radius: 8px; /* optional rounded corners */
+}
+#submitBtn {
+    background-color: #275c3d;      
+    color: white;                   
+    font-size: 1.2em;              
+    padding: 10px 20px;             
+    border: none;                   
+    border-radius: 8px;            
+    cursor: pointer;                
+    box-shadow: 2px 2px 6px rgba(0,0,0,0.2); 
+    transition: transform 0.2s, background-color 0.2s; 
+    margin-left: 600px;
+    margin-top: 20px;
+}
+
+/* Hover effect */
+#submitBtn:hover {
+    background-color: #127c47;    
+    transform: scale(1.05);        
+}
+#bills{
+    text-align: center;
+}
+/* Bill items box */
+.bill-item {
+    font-size: 1.2em;
+    padding: 8px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    background-color: #f1f1f1;
+}
+
+
+#discountContainer {
+    margin-top: 10px;
+}
+
+#discountContainer input {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #aaa;
+    margin-right: 5px;
+}
+
+#discountContainer button {
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #4caf50;
+    color: white;
+    cursor: pointer;
+}
+
+
+.payment-option {
+    display: inline-block;
+    text-align: center;
+    margin-right: 15px;
+    margin-top: 10px;
+}
+
+.payment-option button {
+    padding: 8px 15px;
+    border-radius: 5px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    margin-bottom: 5px;
+}
+
+.payment-option img.payment-logo {
+    width: 80px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
